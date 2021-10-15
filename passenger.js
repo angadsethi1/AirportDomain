@@ -1,3 +1,5 @@
+const {bag} = require("./bag")
+
 class Passenger {
     constructor(name, passportNumber, seatNumber) {
         this.name = name
@@ -8,6 +10,10 @@ class Passenger {
 
     addBag(bag) {
         this.bags.push(bag)
+    }
+
+    addPlane(Plane) {
+        this.Plane.push(Plane)
     }
 }
 

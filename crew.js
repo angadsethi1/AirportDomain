@@ -5,6 +5,14 @@ class Crew {
         this.staffNumber = staffNumber
     }
 
+    addBag(bag) {
+        this.bags.push(bag)
+    }
+
+    addPlane(Plane) {
+        this.Plane.push(Plane)
+    }
+
 }
 
-console.console.log(Crew);
+module.exports = Crew
